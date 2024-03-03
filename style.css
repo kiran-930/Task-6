@@ -1,0 +1,435 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: poppins;
+
+}
+
+
+.class{
+    color: black;
+}
+
+.links
+{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.links:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+   
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.icons{
+    font-size: 2.8rem;
+    color:rgb(0, 0, 0);
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+
+    
+}
+
+#check{
+    display: none;
+}
+.navbar a{
+    font-size: 1rem;
+    color: rgb(29, 16, 206);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.text{
+    background: linear-gradient(90deg,#00dbde,#fc00ff);
+    font-family: poppins;
+    font-size: 60px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20%;
+    
+    
+
+}
+
+.image{
+    width: 100%;
+    height: 510px;
+}
+
+.h2{
+    color: black;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.blue{
+     margin-top: 10%;
+     margin-left: 12%;
+    }
+
+h3{
+    color: blue;
+}
+
+
+.containerr{
+
+   
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    display: flex;
+    
+    
+}
+
+
+.picture{
+    margin-top: 5%;
+}
+
+.galleryy{
+    margin: 35px;
+    border: 1px solid #f2f2f2;
+    float: left;
+    width: 400px;
+    height: 380px;
+    padding:5px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+    
+    
+}
+
+.galleryy:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.galleryy img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    
+    text-align: left;
+}
+.pricee{
+    text-align: right;
+}
+
+h2{
+    color: black;
+    margin-left: 11%;
+    font-size: 20px;
+    margin-top: 9%;
+}
+
+.font{
+    font-size: 14px;
+    color: black;
+}
+
+.pictures{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    margin-top: 8%;
+    border: 1px solid #ccc;
+}
+
+.descc{
+    border: 1px solid #ccc;
+    margin-bottom: 5%;
+}
+
+
+.testimonials{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+    
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33,33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial{
+    background: #fff;
+    padding: 30px;
+}
+
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: #6ab04c;
+    margin-bottom: 20px;
+}
+
+
+section{
+    padding: 80px 13px 70px;
+    
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+   
+   
+}
+
+.footer-content h4{
+    color: rgb(129, 109, 109);
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content li{
+    margin-bottom: 16px;
+    color: gray;
+}
+
+.footerr{
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footerr:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: gray;
+    cursor: pointer;
+}
+
+.footer-content p{
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.iconss{
+    display: inline-block;
+    font-size: 22px;
+    color: #000000;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+
+
+@media (max-width:2020px){
+    .image{
+        height: 600px;
+    }
+
+    
+}
+
+
+
+@media (max-width:992px){
+    .header{
+        padding: 1.3rem 5%;
+    }
+    .text{
+        font-size: 45px;
+    } 
+
+    .image{
+        height: 600px;
+    }
+
+}
+
+
+@media (max-width:768px){
+
+
+    .containerr{
+
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .bookng{
+       
+       flex-wrap: wrap;
+        
+        
+    }
+
+    .icons{
+        display: flex;
+    }
+    #check:checked~.icons #menu-icon{
+        display: none;
+    }
+    .icons #close-icon{
+        display: none;
+    }
+    #check:checked~.icons #close-icon{
+        display: block;
+    }
+   
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        height: 0px;
+        display: none;
+    }
+    #check:checked~.navbar{
+        display: block;
+        height: 15rem;
+
+    }
+    .navbar a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.2rem 0;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width:627px){
+    
+    .text{
+        font-size: 30px;
+    }
+
+    .image{
+        height: 600px;
+    }
+
+}
+
+
+@media (max-width:480px){
+    
+    .text{
+        font-size: 20px;
+    }
+
+    .image{
+        height: 600px;
+    }
+
+}
+
+
+
+.booking-container{
+    border-radius: 2rem;
+  border: 1px solid var(--extra-light);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bookng{
+    display: flex;
+    margin-left: 9%;
+    padding: 5%;
+    margin-bottom: ;
+    
+}
+
+
+.span{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    background-color: var(--extra-light);
+    border-radius: 1rem;
+}
+
+.input-grp
+{
+    width: 151px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.label{
+    color: blue;
+}
